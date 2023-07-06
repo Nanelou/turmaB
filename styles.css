@@ -5,14 +5,15 @@
 }
 
 :root {
-    --preto: #000000;
-    --branco: #FFFF;
+    --rosa: hsl(0, 73%, 64%);
+    --amarelo: hsl(47, 89%, 45%);
 }
 body{
-    background-color: var(--preto);
+    color:beige;
+    background-color: var(--rosa)
 }
 #titulo {
-    color: var(--branco);
+    color: var(--amarelo);
 }
 .quebra-cabeça{
     display: flex;
