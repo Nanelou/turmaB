@@ -1,0 +1,22 @@
+/*reset.simples*/
+*{margin:0;
+    padding: 0;
+
+}
+
+:root {
+    --preto: #000000;
+    --branco: #FFFF;
+}
+body{
+    background-color: var(--preto);
+}
+#titulo {
+    color: var(--branco);
+}
+.quebra-cabeça{
+    display: flex;
+    flex-wrap:wrap;
+    width: 450px;
+    margin-left: 200px;
+}
